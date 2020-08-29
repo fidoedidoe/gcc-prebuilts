@@ -2,7 +2,7 @@
 
     It has been auto-edited by fixincludes from:
 
-	"/home/gavin/android/dev/crosstool-ng/test1/out/arm-linux-androideabi/arm-linux-androideabi/sysroot/usr/include/stdio.h"
+	"/home/gavin/android/dev/crosstool-ng-master-source/bin/out/arm-linux-androideabi/arm-linux-androideabi/sysroot/usr/include/stdio.h"
 
     This had to be done to correct non-standard usages in the
     original, manufacturer supplied header file.  */

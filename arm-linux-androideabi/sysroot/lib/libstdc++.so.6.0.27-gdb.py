@@ -19,8 +19,8 @@ import gdb
 import os
 import os.path
 
-pythondir = '/home/gavin/android/dev/crosstool-ng/test1/out/arm-linux-androideabi/share/gcc-9.2.0/python'
-libdir = '/home/gavin/android/dev/crosstool-ng/test1/out/arm-linux-androideabi/arm-linux-androideabi/lib'
+pythondir = '/home/gavin/android/dev/crosstool-ng-master-source/bin/out/arm-linux-androideabi/share/gcc-9.2.0/python'
+libdir = '/home/gavin/android/dev/crosstool-ng-master-source/bin/out/arm-linux-androideabi/arm-linux-androideabi/lib'
 
 # This file might be loaded when there is no current objfile.  This
 # can happen if the user loads it manually.  In this case we don't

@@ -699,7 +699,7 @@ namespace std
 #define _GLIBCXX_HAVE_ACOSL 1
 
 /* Define to 1 if you have the `aligned_alloc' function. */
-/* #undef _GLIBCXX_HAVE_ALIGNED_ALLOC */
+#define _GLIBCXX_HAVE_ALIGNED_ALLOC 1
 
 /* Define to 1 if you have the <arpa/inet.h> header file. */
 #define _GLIBCXX_HAVE_ARPA_INET_H 1
@@ -897,7 +897,7 @@ namespace std
 #define _GLIBCXX_HAVE_HYPOTL 1
 
 /* Define if you have the iconv() function. */
-/* #undef _GLIBCXX_HAVE_ICONV */
+#define _GLIBCXX_HAVE_ICONV 1
 
 /* Define to 1 if you have the <ieeefp.h> header file. */
 /* #undef _GLIBCXX_HAVE_IEEEFP_H */
@@ -1447,7 +1447,7 @@ namespace std
 #define _GLIBCXX_HAVE___CXA_THREAD_ATEXIT_IMPL 1
 
 /* Define as const if the declaration of iconv() needs const. */
-/* #undef _GLIBCXX_ICONV_CONST */
+#define _GLIBCXX_ICONV_CONST 
 
 /* Define to the sub-directory in which libtool stores uninstalled libraries.
    */
@@ -1498,7 +1498,7 @@ namespace std
 /* Define if C99 functions in <complex.h> should be used in <complex> for
    C++11. Using compiler builtins for these functions requires corresponding
    C99 library functions to be present. */
-/* #undef _GLIBCXX11_USE_C99_COMPLEX */
+#define _GLIBCXX11_USE_C99_COMPLEX 1
 
 /* Define if C99 functions or macros in <math.h> should be imported in <cmath>
    in namespace std for C++11. */
@@ -1519,7 +1519,7 @@ namespace std
 /* Define if C99 functions in <complex.h> should be used in <complex> for
    C++98. Using compiler builtins for these functions requires corresponding
    C99 library functions to be present. */
-/* #undef _GLIBCXX98_USE_C99_COMPLEX */
+#define _GLIBCXX98_USE_C99_COMPLEX 1
 
 /* Define if C99 functions or macros in <math.h> should be imported in <cmath>
    in namespace std for C++98. */
@@ -1600,12 +1600,12 @@ namespace std
 
 /* Define if C99 functions or macros from <wchar.h>, <math.h>, <complex.h>,
    <stdio.h>, and <stdlib.h> can be used or exposed. */
-/* #undef _GLIBCXX_USE_C99 */
+#define _GLIBCXX_USE_C99 1
 
 /* Define if C99 functions in <complex.h> should be used in <tr1/complex>.
    Using compiler builtins for these functions requires corresponding C99
    library functions to be present. */
-/* #undef _GLIBCXX_USE_C99_COMPLEX_TR1 */
+#define _GLIBCXX_USE_C99_COMPLEX_TR1 1
 
 /* Define if C99 functions in <ctype.h> should be imported in <tr1/cctype> in
    namespace std::tr1. */
